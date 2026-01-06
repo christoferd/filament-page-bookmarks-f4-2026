@@ -1,34 +1,34 @@
 {
-    "name": "christoferd/filament-page-bookmarks-f4-2026",
+    "name": "jaysontemporas/page-bookmarks",
     "version": "2.0.26",
     "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "christoferd\\PageBookmarks\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "christoferd\\PageBookmarks\\PageBookmarksServiceProvider"
-            ]
-        }
-    },
-    "authors": [
-        {
-            "name": "Christoferd, Jayson Temporas"
-        }
-    ],
-    "require": {
-        "filament/filament": "^4.0",
-        "spatie/laravel-package-tools": "^1.9"
-    },
     "require-dev": {
         "php": "^8.3",
         "laravel/pint": "^1.17",
         "filament/upgrade": "^4.0"
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jaysontemporas\\PageBookmarks\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jaysontemporas\\PageBookmarks\\PageBookmarksServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Jayson Temporas"
+        }
+    ],
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "require": {
+        "filament/filament": "^4.0",
+        "spatie/laravel-package-tools": "^1.9"
+    }
 }
