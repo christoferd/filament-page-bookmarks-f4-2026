@@ -1,5 +1,5 @@
 {
-    "name": "jaysontemporas/page-bookmarks",
+    "name": "christoferd/filament-page-bookmarks-f4-2026",
     "version": "2.0.1",
     "type": "library",
     "require-dev": {
@@ -10,19 +10,19 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jaysontemporas\\PageBookmarks\\": "src/"
+            "christoferd\\PageBookmarks\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jaysontemporas\\PageBookmarks\\PageBookmarksServiceProvider"
+                "christoferd\\PageBookmarks\\PageBookmarksServiceProvider"
             ]
         }
     },
     "authors": [
         {
-            "name": "Jayson Temporas"
+            "name": "Christoferd, Jayson Temporas"
         }
     ],
     "minimum-stability": "beta",
