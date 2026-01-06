@@ -1,6 +1,6 @@
 <?php
 
-namespace JaysonTemporas\PageBookmarks;
+namespace Christoferd\PageBookmarks;
 
 use Filament\View\PanelsRenderHook;
 use Filament\Support\Facades\FilamentView;
