@@ -2,11 +2,6 @@
     "name": "christoferd/filament-page-bookmarks-f4-2026",
     "version": "2.0.26",
     "type": "library",
-    "require-dev": {
-        "php": "^8.3",
-        "laravel/pint": "^1.17",
-        "filament/upgrade": "^4.0"
-    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -25,10 +20,15 @@
             "name": "Christoferd, Jayson Temporas"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "require": {
         "filament/filament": "^4.0",
         "spatie/laravel-package-tools": "^1.9"
-    }
+    },
+    "require-dev": {
+        "php": "^8.3",
+        "laravel/pint": "^1.17",
+        "filament/upgrade": "^4.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
